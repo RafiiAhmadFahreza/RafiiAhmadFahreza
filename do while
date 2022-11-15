@@ -1,0 +1,29 @@
+#include <conio.h>
+#include <iostream>
+using namespace std;
+int main() {
+	cout<<("nama: rafii ahmad fahreza\nNIM:22343026\n");
+    cout<<("=================================================\n");
+    cout<<("==========Program Koversi jam ==========\n");
+    cout<<("=================================================\n");
+    
+   int j, m, d;
+   char jawab;
+	
+   do {
+	cout<<("\n\nInputkan Jam : ");
+    cin>>j;fflush(stdin);
+    cout<<("Inputkan menit : ");
+    cin>>m;fflush(stdin);
+	cout<<("Inputkan detik : ");
+    cin>>d;fflush(stdin);
+	cout<<j<<" Jam = "<<m<<" Menit = "<<d<<" Detik"<<endl;
+	cout<<("Apakah Ingin Diulang (Y/N) ? : ");
+	cin>>jawab;fflush(stdin);
+   } while (jawab != 'n');
+   cout<<("\n\nProgram Telah selesai, Terimakasih");
+   getch();
+
+}
+
+    
